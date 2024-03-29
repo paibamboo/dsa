@@ -36,6 +36,7 @@ for l < r {
 
 // Round down, Desc
 // Result = left most
+// Example problem: https://leetcode.com/problems/koko-eating-bananas/
 l, r := 0, len(nums) - 1
 for l < r {
 	m := l + (r-l)/2
